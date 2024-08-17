@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className='xs:w-5/6 lg:w-1/2 lg:h-auto bg-white absolute xs:left-8 lg:left-1/4 top-36 z-30 rounded-2xl p-10'>
           <div className='flex items-center'>
-            <img src="../public/assets/icon-star.svg" alt="star" />
+            <img src="https://cloudofalemar.github.io/FAQAccordion2/assets/images/icon-star.svg" alt="star" />
             <h1 className='text-dark-purple xs:text-3xl lg:text-5xl font-bold ml-10'>FAQs</h1>
           </div>
           {data.map((item,index)=>{
