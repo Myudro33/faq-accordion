@@ -6,10 +6,10 @@ function App() {
   return (
     <div className='w-screen h-screen bg-light-pink  z-10'>
       <div className='xs:hidden lg:flex'>
-        <img className='w-full' src="../public/assets/background-pattern-desktop.svg" alt="background" />
+        <img className='w-full' src="https://cloudofalemar.github.io/FAQAccordion2/assets/images/background-pattern-desktop.svg" alt="background" />
       </div>
       <div className='xs:flex lg:hidden'>
-        <img className='w-full' src="../public/assets/background-pattern-mobile.svg" alt="background" />
+        <img className='w-full' src="https://cloudofalemar.github.io/FAQAccordion2/assets/images/background-pattern-mobile.svg" alt="background" />
       </div>
       <div className='xs:w-5/6 lg:w-1/2 lg:h-auto bg-white absolute xs:left-8 lg:left-1/4 top-36 z-30 rounded-2xl p-10'>
           <div className='flex items-center'>
