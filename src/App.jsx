@@ -1,5 +1,6 @@
 import './App.css'
 import { useState } from 'react'
+import AccordionIcon from './components/AccordionIcon'
 
 function App() {
   const [active,setActive] = useState(false)
@@ -19,31 +20,7 @@ function App() {
           <div className='w-full mt-10 '>
             <div onClick={()=>setActive(!active)} className='flex justify-between cursor-pointer'>
               <h1 className='text-dark-purple hover:text-gray-purple font-bold text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-              <svg
-          className="fill-indigo-500 shrink-0 ml-8"
-          width="16"
-          height="16"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            y="7"
-            width="16"
-            height="2"
-            rx="1"
-            className={`transform origin-center transition duration-200 ease-out ${
-              active && "!rotate-180"
-            }`}
-          />
-          <rect
-            y="7"
-            width="16"
-            height="2"
-            rx="1"
-            className={`transform origin-center rotate-90 transition duration-200 ease-out ${
-              active && "!rotate-180"
-            }`}
-          />
-        </svg>
+              <AccordionIcon active={active}/>
             </div>
             <div className={`w-full bg-gray-purple grid overflow-hidden transition-all duration-300 ease-in-out ${active?'grid-rows-[1fr] opacity-100':'grid-rows-[0fr] opacity-0'}`}>
             <div className='overflow-hidden'>
