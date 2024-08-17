@@ -1,6 +1,6 @@
 import './App.css'
 import { useState } from 'react'
-import AccordionIcon from './components/AccordionIcon'
+import Accordion from './components/Accordion'
 
 function App() {
   const [active,setActive] = useState(false)
@@ -17,17 +17,7 @@ function App() {
             <img src="../public/assets/icon-star.svg" alt="star" />
             <h1 className='text-dark-purple text-5xl font-bold ml-10'>FAQs</h1>
           </div>
-          <div className='w-full mt-10 '>
-            <div onClick={()=>setActive(!active)} className='flex justify-between cursor-pointer'>
-              <h1 className='text-dark-purple hover:text-gray-purple font-bold text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-              <AccordionIcon active={active}/>
-            </div>
-            <div className={`w-full bg-gray-purple grid overflow-hidden transition-all duration-300 ease-in-out ${active?'grid-rows-[1fr] opacity-100':'grid-rows-[0fr] opacity-0'}`}>
-            <div className='overflow-hidden'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima suscipit voluptate accusantium et laborum. Magnam, veniam. Reiciendis, nisi magnam illum sint, distinctio minima at, officia ipsa reprehenderit repellat optio suscipit.              
-            </div>
-            </div>
-          </div>
+          <Accordion active={active} setActive={setActive} title='lorem5' answer='lorem6'/>
       </div>
     </div>
   )
