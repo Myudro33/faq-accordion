@@ -5,8 +5,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#)
-  - [Links](#[links](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
+  - [Links](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
   - [Built with](#Reactjs)
   - [Useful resources](#TailwindCSS)
 
