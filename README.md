@@ -5,8 +5,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#Faqaccordion)
-  - [Links](#[links](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz))
+  - [The challenge](#)
+  - [Links](#[links](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
   - [Built with](#Reactjs)
   - [Useful resources](#TailwindCSS)
 
@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://myudro33-faq-accordion.netlify.app/)
 
 ## My process
 
@@ -39,13 +38,13 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Tailwind Css]([https://](https://tailwindcss.com/)) - For styles
+- [Tailwind Css](https://tailwindcss.com/) - For styles
 
 
 
 ## Author
 
-- Website - [myudro33](https://www.your-site.com)
+- Website - [myudro33](https://myudro33-faq-accordion.netlify.app/)
 - Frontend Mentor - [@myudro33](https://www.frontendmentor.io/profile/Myudro33)
 
 
