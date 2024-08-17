@@ -1,7 +1,7 @@
 import './App.css'
 function App() {
   return (
-    <div className='w-screen h-screen'>
+    <div className='w-screen h-screen bg-light-pink-'>
       <div className='xs:hidden lg:flex'>
         <img className='w-full' src="../public/assets/background-pattern-desktop.svg" alt="background" />
       </div>
