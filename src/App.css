@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 .work-sans {
   font-family: "Work Sans", sans-serif;
